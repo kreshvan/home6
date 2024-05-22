@@ -38,39 +38,19 @@ public class Main {
 //задание 9
         int salary1 = 29000;
         int totalSalary1 = 0;// так как изначально ничего не зарабатывает
-        for (int i = 0; i < 12; i = i + 1) {
+        for (int i = 0; i < 12 ; i = i + 1) {
             totalSalary1 = totalSalary1 + salary1;
-            totalSalary1 = totalSalary1 + salary1/100;
+            totalSalary1 = totalSalary1 + salary1 / 100;
+            totalSalary1+= totalSalary1/100;
+
             System.out.println("Месяц" + i + " " + "сумма накоплений равна" + " " + totalSalary1);
         }
 //задание 10
-        for (int i = 1; i <= 10; i = i + 1 ) {
-            System.out.println("2 * "+i+"="+ i *2   );
+        for (int i = 1; i <= 10; i = i + 1) {
+            System.out.println("2 * " + i + "=" + i * 2);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
-
-
-
-
-
-
-
-
 
 
