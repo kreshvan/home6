@@ -21,7 +21,7 @@ public class Main {
             System.out.println(i + " " + "год является високосным");
         }
 //задание 6
-        for (int i = 0; i <= 98; i = i + 7) {
+        for (int i = 7; i <= 98; i = i + 7) {
             System.out.println(i);
         }
 //задание 7
@@ -40,7 +40,7 @@ public class Main {
         int totalSalary1 = 0;// так как изначально ничего не зарабатывает
         for (int i = 0; i < 12; i = i + 1) {
             totalSalary1 = totalSalary1 + salary1;
-            totalSalary1 = totalSalary1 + salary1/100*12;
+            totalSalary1 = totalSalary1 + salary1/100;
             System.out.println("Месяц" + i + " " + "сумма накоплений равна" + " " + totalSalary1);
         }
 //задание 10
